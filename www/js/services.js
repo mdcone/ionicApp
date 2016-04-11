@@ -1,13 +1,13 @@
-var appURL = 'http://localhost:3000';
+var appURL = 'https://dylanappbackend.herokuapp.com';
 
 angular.module('dataWarehouse', [])
 
   .service('dataGrabber', ['$http', '$q', function ($http, $q) {
-    var deferrable = $q.defer();
 
     return {
       resourceGet: function (resource) {
         var promise = $http.get(appURL + resource);
+        var deferrable = $q.defer();
 
         promise.then(
           function (data) {

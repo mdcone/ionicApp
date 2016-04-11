@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecbbb697-3768-42db-b5b6-7575337f2f40" name="Default" comment="Added live date coming from backend web service.">
+    <list default="true" id="ecbbb697-3768-42db-b5b6-7575337f2f40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/commonAbstractions.js" afterPath="$PROJECT_DIR$/www/js/commonAbstractions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/narcissisticControllers.js" afterPath="$PROJECT_DIR$/www/js/narcissisticControllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/learning/books.html" afterPath="$PROJECT_DIR$/www/templates/learning/books.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/learning/interests.html" afterPath="$PROJECT_DIR$/www/templates/learning/interests.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/learning/podcasts.html" afterPath="$PROJECT_DIR$/www/templates/learning/podcasts.html" />
     </list>
     <ignored path="ionicApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,14 +24,14 @@
     <favorites_list name="ionicApp" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4179796">
+    <splitter split-orientation="horizontal" split-proportion="0.62001854">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="commonAbstractions.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="commonAbstractions.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/js/commonAbstractions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -83,10 +79,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="narcissisticControllers.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="narcissisticControllers.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/js/narcissisticControllers.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
+                <state relative-caret-position="237">
                   <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
                   <folding />
                 </state>
@@ -118,8 +114,8 @@
           <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/js/services.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -149,19 +145,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="commonListPage.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="commonListPage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/templates/commonListPage.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
                   <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-                  <folding>
-                    <marker date="1460391686000" expanded="true" signature="36:185" placeholder="..." />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="interests.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="interests.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/www/templates/learning/interests.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
@@ -206,12 +200,12 @@
         <option value="$PROJECT_DIR$/www/templates/learning.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/templates/learningSplash.html" />
-        <option value="$PROJECT_DIR$/www/js/services.js" />
         <option value="$PROJECT_DIR$/www/templates/learning/interests.html" />
         <option value="$PROJECT_DIR$/www/templates/learning/podcasts.html" />
         <option value="$PROJECT_DIR$/www/templates/learning/books.html" />
-        <option value="$PROJECT_DIR$/www/js/commonAbstractions.js" />
         <option value="$PROJECT_DIR$/www/js/narcissisticControllers.js" />
+        <option value="$PROJECT_DIR$/www/js/commonAbstractions.js" />
+        <option value="$PROJECT_DIR$/www/js/services.js" />
       </list>
     </option>
   </component>
@@ -525,7 +519,7 @@
       <option name="presentableId" value="Default" />
       <updated>1460345191163</updated>
       <workItem from="1460345192314" duration="6255000" />
-      <workItem from="1460352880825" duration="12055000" />
+      <workItem from="1460352880825" duration="13266000" />
     </task>
     <task id="LOCAL-00001" summary="Wire up interests pages and our dataGrabber service">
       <created>1460388321613</created>
@@ -548,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460395409693</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added live date coming from backend web service.">
+      <created>1460397861954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1460397861954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18310000" />
+    <option name="totallyTimeSpent" value="19521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -790,21 +791,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/www/templates/learning/podcasts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/commonListPage.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/learning/interests.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <marker date="1460391686000" expanded="true" signature="36:185" placeholder="..." />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,18 +817,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/learning/podcasts.html">
+    <entry file="file://$PROJECT_DIR$/www/js/narcissisticControllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="237">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -842,26 +841,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/commonListPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/commonAbstractions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/narcissisticControllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/learning/interests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
