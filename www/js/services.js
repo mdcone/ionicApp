@@ -17,8 +17,22 @@ angular.module('dataWarehouse', [])
             deferrable.reject(error);
           }
         );
-        
+
         return deferrable.promise();
       }
     }
-  }]);
+  }])
+
+  .service('stateMaintainer', function () {
+    var stateStore = {};
+
+    return {
+      getItem: function (item) {
+        return stateStore[item];
+      },
+      setItem: function (item, value) {
+        stateStore = angular.copy(stateStore);
+        stateStore[item] = value;
+      }
+    }
+  });

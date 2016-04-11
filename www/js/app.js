@@ -64,7 +64,8 @@ angular.module('starter', ['ionic',
     url: '/learning',
     views: {
       'menuContent': {
-        templateUrl: 'templates/learning.html'
+        templateUrl: 'templates/learning.html',
+        controller: 'LearningCtrl'
       }
     }
   })
