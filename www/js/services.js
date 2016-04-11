@@ -1,4 +1,4 @@
-var appURL = 'http://foo.com';
+var appURL = 'http://localhost:3000';
 
 angular.module('dataWarehouse', [])
 
@@ -7,7 +7,7 @@ angular.module('dataWarehouse', [])
 
     return {
       resourceGet: function (resource) {
-        var promise = $http.get(appURL + '/api/' + resource);
+        var promise = $http.get(appURL + resource);
 
         promise.then(
           function (data) {
@@ -18,7 +18,7 @@ angular.module('dataWarehouse', [])
           }
         );
 
-        return deferrable.promise();
+        return deferrable.promise;
       }
     }
   }])

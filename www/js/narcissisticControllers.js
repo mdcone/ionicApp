@@ -6,23 +6,13 @@ angular.module('dylan.controllers', [])
 })
 
 .controller('DataCtrl', [ '$scope', 'dataGrabber', function ($scope, dataGrabber) {
-  $scope.data = [
-    { title: 'Reggaee', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-  $scope.$on('$ionicView.enter', function(e) {
-    // Data being refreshed
-
-  });
+  
+  
 }])
 
 .controller('LearningCtrl', ['$scope', '$ionicModal', 'stateMaintainer', '$timeout', function ($scope, $ionicModal, stateMaintainer, $timeout) {
   // Create the splash screen modal that we will use later
-  $scope.$on('$ionicView.enter', function(e) {
+  $scope.$on('$ionicView.enter', function() {
     $ionicModal.fromTemplateUrl('templates/learningSplash.html', {
       scope: $scope
     }).then(function (modal) {
