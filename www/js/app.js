@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'dylan.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers', 'dylan.controllers', 'dataWarehouse'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -60,8 +60,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'dylan.controllers'])
     url: '/learning',
     views: {
       'menuContent': {
-        templateUrl: 'templates/learning.html',
-        controller: 'LearningCtrl'
+        templateUrl: 'templates/learning.html'
       }
     }
   })
@@ -69,7 +68,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'dylan.controllers'])
       url: '/books',
       views: {
         'books-tab': {
-          templateUrl: 'templates/learning/books.html'
+          templateUrl: 'templates/learning/books.html',
+          controller: 'DataCtrl'
         }
       }
     })
@@ -78,7 +78,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'dylan.controllers'])
       url: '/interests',
       views: {
         'interests-tab': {
-          templateUrl: 'templates/learning/interests.html'
+          templateUrl: 'templates/learning/interests.html',
+          controller: 'DataCtrl'
         }
       }
     })
@@ -87,7 +88,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'dylan.controllers'])
       url: '/podcasts',
       views: {
         'podcasts-tab': {
-          templateUrl: 'templates/learning/podcasts.html'
+          templateUrl: 'templates/learning/podcasts.html',
+          controller: 'DataCtrl'
         }
       }
     })
