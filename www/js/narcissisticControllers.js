@@ -33,6 +33,7 @@ angular.module('dylan.controllers', [])
     // Load the page and then show the screen
     $timeout(function () {
       if (!stateMaintainer.getItem('splash-seen')) {
+        $scope.username = stateMaintainer.getItem('username') || 'stranger';
         $scope.splash();
       }
     }, 1000);

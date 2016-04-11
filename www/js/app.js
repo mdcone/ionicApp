@@ -108,6 +108,26 @@ angular.module('starter', ['ionic',
       }
     }
   })
+    
+    .state('app.music.listen', {
+      url: '/listen',
+      views: {
+        'listen-tab': {
+          templateUrl: 'templates/music/listen.html',
+          controller: 'DataCtrl'
+        }
+      }
+    })
+
+    .state('app.music.play', {
+      url: '/play',
+      views: {
+        'play-tab': {
+          templateUrl: 'templates/music/play.html',
+          controller: 'DataCtrl'
+        }
+      }
+    })
 
   .state('app.trophies', {
     url: '/trophies',
